@@ -1,8 +1,4 @@
 <body>
-    <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-
 
     <?php include ('_header.html') ?>
 
@@ -12,65 +8,51 @@
                     <div class="col-lg-9">
                         <div class="section_title mb-55 text-center">
                             <h3>Infirmières</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                            
+                            <p>Tous soins à domicile et au cabinet, sur RDV.
+                            </p>
+                            <br>
+                            <h2>Quel rôle dans les soins en libéral ?</h2>
+                            <p>L’infirmière libérale est avant tout une infirmière diplômée d’état, qui a déjà pratiqué, pendant au moins 2 ans, en hôpital ou établissement de soins. Elle est donc capable d’effectuer les mêmes soins qu’une infirmière titulaire.
+                                L’IDEL effectue des soins relevant de son rôle propre, mais doit aussi pouvoir poser un diagnostic infirmier, ou encore participer au dépistage, à la prévention, et à l’éducation à la Santé.
+                                Les soins peuvent être dispensés sur prescription médicale ou en présence d’un médecin prescripteur. Le rôle de l’infirmière libérale dans les soins à domicile est donc pluridisciplinaire de façon à prendre en charge le patient dans sa globalité. Par ailleurs, il est important de pointer le rôle de pilier de l’IDEL dans la coordination des soins médicaux, et notamment avec les autres professionnels de santé.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    
+    <div class="welcome_clicnic_area" style="padding-top: inherit;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="welcome_thumb">
+                        <div class="thumb_2">
+                            <img src="img/cecile1.jpg" alt="cecile">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="welcome_docmed_info">                      
+                        <h2>Quels types de soins en libéral ?</h2>
+                        <br>
+                        <p>On distingue 3 catégories de soins :</p>
+                        <ul>
+                            <li> <i class="flaticon-verified"></i>Les soins courants : les injections, pansements, prélèvements sanguins, perfusions, lavage</li>
+                            <li> <i class="flaticon-verified"></i>Les soins spécifiques : utilisation de cathéters pour les prélèvements et injections, prise en charge à domicile de patients diabétiques</li>
+                            <li> <i class="flaticon-verified"></i>Les soins infirmiers à domicile : la surveillance, la mise en place d’une aide et d’une prise en charge personnalisée</li>
+                        </ul>
+                        <p>
+                            Parallèlement aux soins réalisés au cabinet  kératoconseil, une prescription de crèmes en application locale vous sera conseillée afin de retrouver une peau saine.
+                        </p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <?php include ('_footer.html') ?>
 
-
-    <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/gijgo.min.js"></script>
-    <!--contact js-->
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
-
-    <script src="js/main.js"></script>
-    <script>
-        $('.datepicker').datepicker({
-            iconsLibrary: 'fontawesome',
-            icons: {
-                rightIcon: '<span class="fa fa-calendar"></span>'
-            }
-        });
-
-        $('.timepicker').timepicker({
-            iconsLibrary: 'fontawesome',
-            icons: {
-                rightIcon: '<span class="fa fa-clock-o"></span>'
-            }
-        });
-    $(document).ready(function() {
-    $('.js-example-basic-multiple').select2();
-});
-    </script>
 </body>
 
 </html>

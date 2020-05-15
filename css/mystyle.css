@@ -1,9 +1,24 @@
-.main-menu #navigation {
-    margin: 0px;
-    margin-top: -24px;
-    margin-bottom: -1rem;
+/* Header */
+.logo-img {
+    position: absolute;
+    top: -125px;
+    right: -708px;
 }
 
+.nav-item {
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link {
+    font-size: .97em;
+
+}
+
+/* Accueil */
 .carousel.slide {
     position: relative;
 }
@@ -51,4 +66,104 @@
     width: 50px;
     height: 50px;
     background-size: 28px;
+}
+
+/* Pages articles */
+.img-article {
+    width: 500px;
+    margin: auto;
+}
+
+.img-article img {
+    width: 100%;
+}
+
+/* line 15, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_about.scss */
+.welcome_clicnic_area .welcome_thumb .thumb_2 {
+    left: 0;
+    margin-left: 0px;
+    position: relative;
+    margin-left: 30px;
+}
+  
+  /* line 20, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_about.scss */
+.welcome_clicnic_area .welcome_thumb .thumb_2::before {
+    background: #e0fbff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 75%;
+    height: 100%;
+    content: '';
+    z-index: -1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    left: -30px;
+    bottom: -30px;
+}
+  
+/* line 33, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_about.scss */
+.welcome_clicnic_area .welcome_thumb .thumb_2 img {
+    width: 75%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+  
+@media (max-width: 767px) {
+    /* line 33, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_about.scss */
+    .welcome_clicnic_area .welcome_thumb .thumb_2 img {
+        width: 100%;
+    }
+}
+
+/* Responsive */
+@media screen and (max-width: 640px) {
+    .logo-img {
+        position: absolute;
+        top: -188px;
+        right: -19px;
+    }
+
+    .logo-img img {
+        width: 60px !important;
+    }
+
+    .carousel-inner {
+        height: 250px;
+    }
+    .container.carousel-text {
+        top: 46px;
+        width: 200px;
+    }
+
+    .slider_text-pad {
+        padding: 0;
+    }
+
+    .slider_text h4{
+        font-size: .7em;
+    }
+
+    .slider_text h2{
+        font-size: .7em;
+    }
+
+    .boxed-btn5 {
+        padding: 2px 16px;
+        font-size: 1em;
+    }
+
+    .img-article {
+        width: 250px !important;
+    }
+
+    iframe {
+        width: 330px;
+        height: 330px;
+    }
+
+    
+
 }

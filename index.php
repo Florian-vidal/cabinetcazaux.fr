@@ -13,13 +13,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="img/cabinet1.jpg" class="d-block w-100" alt="...">
+            <img src="img/cabinet1.jpg" class="d-block w-100" alt="carousel-cabinet">
             </div>
             <div class="carousel-item">
-            <img src="img/gymnase1.jpg" class="d-block w-100" alt="...">
+            <img src="img/gymnase1.jpg" class="d-block w-100" alt="carousel-gymnase">
             </div>
             <div class="carousel-item">
-            <img src="img/piscine1.jpg" class="d-block w-100" alt="...">
+            <img src="img/piscine1.jpg" class="d-block w-100" alt="carousel-piscine">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -32,11 +32,11 @@
         </a>
         <div class="container carousel-text">
             <div class="row">
-                <div class="col-xl-12">
-                    <div class="slider_text ">
-                        <h4>Votre centre médical à Cazaux</h4>
-                        <h2>Cabinet de Kinésithérapie</h2>
-                        <a href="#" class="boxed-btn5">Visite virtuelle
+                <div class="col-xl-12 slider_text-pad">
+                    <div class="slider_text">
+                        <h4 style="text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;">Votre centre paramédical à Cazaux</h4>
+                        <h2 style="text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;">Cabinet de Kinésithérapie</h2>
+                        <a href="visite-virtuelle.php" class="boxed-btn5">Visite virtuelle
                         </a>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="welcome_thumb">
                         <div class="thumb_1">
-                            <img src="img/mathieu.jpg" alt="">
+                            <img src="img/entree8.jpg" alt="entree">
                         </div>
                     </div>
                 </div>
@@ -75,15 +75,14 @@
                             <br>
                             Le cabinet est équipé d’un grand plateau technique, <a href="balneotherapie.php">d’une balnéothérapie</a> et de 6 box individuels. Moderne et à la pointe de la technologie, nous vous offrons un large panel de <a href="materielphysiotherapie.php">matériel de rééducation et de physiothérapie</a>.
                             <br>
-                            Des soins et suivis infirmiers sont également réalisés au cabinet et à domicile au quotidien. (lien vers Infirmère).
+                            <a href="infirmieres.php">Des soins et suivis infirmiers </a>sont également réalisés au cabinet et à domicile au quotidien.
                             <br>
                             <br>
-                            <a href="equipe.php">L’équipe de kinésithérapeutes</a> et <a href="osteopathie.php">ostéopathes</a> vous accueille dans ses locaux sur rdv, du lundi au vendredi de 7h30 à 20h30 ainsi que le samedi matin.
+                            <a href="equipe-kinesitherapie.php">L’équipe de kinésithérapeutes</a> et <a href="osteopathie.php">ostéopathes</a> vous accueille dans ses locaux sur rdv, du lundi au vendredi de 7h30 à 20h30 ainsi que le samedi matin.
                             Nous nous déplaçons également au domicile des patients ainsi qu’en structure type EHPAD.
 
                             English and spanish spoken.
-                        </p>
-                        
+                        </p>                       
                     </div>
                 </div>
             </div>

@@ -1,11 +1,6 @@
 <body>
-    <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-
 
     <?php include ('_header.html') ?>
-
 
     <!-- depertment_area_start  -->
     <div class="depertment_area">
@@ -25,7 +20,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-5">
                                 <div class="dept_thumb pl-4">
-                                    <img src="img/1.jpg" alt="">
+                                    <img src="img/couloir.jpg" alt="couloir">
                                 </div>
                             </div>
                             <div class="col-lg-7">
@@ -53,158 +48,20 @@
                                         <li>Strapping - K taping</li>
                                         <li>Endermologie - Esthétique</li>
                                         <li>Balnéothérapie</li>
-                                        <li>Rééducation SRO Porteur et Port Porteur epino</li>
+                                        <li>Rééducation Pré partum et Post Partum epino</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <!-- single_content  -->
                     </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                        <!-- single_content  -->
-                        <div class="row align-items-center">
-                            <div class="col-lg-5">
-                                <div class="dept_thumb">
-                                    <img src="img/department/1.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="dept_info">
-                                    <h3>Dentist with surgical mask holding <br> scaler near patient</h3 >
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                    <a href="#" class="boxed-btn">Make An Appointment</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single_content  -->
-                    </div>
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                    <!-- single_content  -->
-                    <div class="row align-items-center">
-                        <div class="col-lg-5">
-                            <div class="dept_thumb">
-                                <img src="img/department/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="dept_info">
-                                <h3>Dentist with surgical mask holding <br> scaler near patient</h3 >
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                <a href="#" class="boxed-btn">Make An Appointment</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single_content  -->
-                    </div>
-                    <div class="tab-pane fade" id="Astrology" role="tabpanel" aria-labelledby="Astrology-tab">
-                        <!-- single_content  -->
-                        <div class="row align-items-center">
-                            <div class="col-lg-5">
-                                <div class="dept_thumb">
-                                    <img src="img/department/1.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="dept_info">
-                                    <h3>Dentist with surgical mask holding <br> scaler near patient</h3 >
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                    <a href="#" class="boxed-btn">Make An Appointment</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single_content  -->
-                    </div>
-                    <div class="tab-pane fade" id="Neuroanatomy" role="tabpanel" aria-labelledby="Neuroanatomy-tab">
-                        <!-- single_content  -->
-                        <div class="row align-items-center">
-                            <div class="col-lg-5">
-                                <div class="dept_thumb">
-                                    <img src="img/department/1.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="dept_info">
-                                    <h3>Dentist with surgical mask holding <br> scaler near patient</h3 >
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                    <a href="#" class="boxed-btn">Make An Appointment</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single_content  -->
-                    </div>
-                    <div class="tab-pane fade" id="Blood" role="tabpanel" aria-labelledby="Blood-tab">
-                    <!-- single_content  -->
-                    <div class="row align-items-center">
-                        <div class="col-lg-5">
-                            <div class="dept_thumb">
-                                <img src="img/department/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="dept_info">
-                                <h3>Dentist with surgical mask holding <br> scaler near patient</h3 >
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                <a href="#" class="boxed-btn">Make An Appointment</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single_content  -->
-                    </div>
-                  </div>
+                </div>
             </div>
-
         </div>
     </div>
-    <!-- depertment_area_end  -->
+                  
 
     <?php include ('_footer.html') ?>
 
-
-    <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/gijgo.min.js"></script>
-    <!--contact js-->
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
-
-    <script src="js/main.js"></script>
-    <script>
-        $('.datepicker').datepicker({
-            iconsLibrary: 'fontawesome',
-            icons: {
-                rightIcon: '<span class="fa fa-calendar"></span>'
-            }
-        });
-
-        $('.timepicker').timepicker({
-            iconsLibrary: 'fontawesome',
-            icons: {
-                rightIcon: '<span class="fa fa-clock-o"></span>'
-            }
-        });
-    $(document).ready(function() {
-    $('.js-example-basic-multiple').select2();
-});
-    </script>
 </body>
 
 </html>
